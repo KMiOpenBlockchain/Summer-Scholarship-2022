@@ -27,12 +27,12 @@ And this page contains details of his TikTok Tokens: [tokens/](./tokens/)
 — John Domingue, Supervisor
 
 ## Contents
-- week2/
-- week3/
-- week4/
-- peter/
-- week5/
-- tokens/
+- [week2/](./week2/)  
+- [week3/](./week3/)  
+- [week4/](./week4/)  
+- [peter/](./peter/)  
+- [week5/](./week5/)  
+- [tokens/](./tokens/) 
 
 ## Notes
 - This is an **archived project**. No further development or maintenance is planned.

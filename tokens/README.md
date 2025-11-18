@@ -6,6 +6,7 @@
 - This page summarises ouput from the scholarship.
 - This work is licensed under the Creative Commons Attribution 4.0 International (CC BY 4.0) License.
 
+For full context and demos, see the [main repository README](../README.md).
 
 TikTok Token Contract
 ---------------------
@@ -17,8 +18,11 @@ TikTok Token Contract Address: **0x3Cd6b82D86416BC04A204e52443f74E608d0B2C5**
   
   
 TikTok Token Contract ABI:
-<div style="overflow:auto;height:400px; border:1px solid gray">
-    <pre>
+
+<details>
+<summary>Click to view full ABI</summary>
+
+```
 	[
 		{
 			"inputs": [],
@@ -515,8 +519,11 @@ TikTok Token Contract ABI:
 			"type": "function"
 		}
 	]
-    </pre>
-</div>  
+
+```
+</details>
+
+
 
 Noodle Video Token
 ------------------
