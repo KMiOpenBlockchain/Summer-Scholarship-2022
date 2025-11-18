@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>2022 Summer Scholarship - Hash a TikTok Video File</title>
+	<link type='text/css' href="../main.css" rel='stylesheet'>
+	<link href="./app.css" rel='stylesheet' type='text/css'>
+
+	<script type="text/javascript" defer src="./app.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/ethers/5.2.0/ethers.umd.min.js" type="application/javascript"></script>
+	<script src="https://www.w3schools.com/lib/w3.js"></script>
+</head>
+
+<body onload="initApp();">
+	<div style="margin:0px; padding:0px;" w3-include-html="../header.html"></div>
+
+	<main>
+	<div class="holder">
+		<h1>Summer Scholarship 2022 - Week 2: Hash a TikTok Video File</h1>
+
+		<div class="innerholder" style="padding-top:10px;">
+
+			<div class="panel" style="clear:both; float: left;margin-top:20px;">
+				<span>
+					<h2>Hash a File</h2>
+					<label for="movieFile">Choose a movie file to hash:</label>   <input type="file" id="movieFile" name="movieFile">
+					<br /><br />
+					<button class="button" id="hashButton" name="hashButton" onclick="hashFile()">Hash File</button>
+
+					<br /><br />
+					<label class="labelmid" for="fileHash">Hash of file</label>
+					<input type="text" id="fileHash" name="fileHash" size="80">
+					<br /><br />
+
+					<label class="labelmid" for="hashName" title="Give your hash a meaningful label like the filename for storing the hash for later">Name:</label>
+					<input id="hashName" value="" size="80"></input>
+					<button id="storeDataButton" class="button" onclick="storeData()">Store Hash</button>
+				</span>
+			</div>
+			<div class="panel" style="clear:both; float: left;margin-top:20px;">
+				<span>
+					<h2>Stored Data &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<button class="button" id="clearDataButton" name="clearDataButton" onclick="clearDataStore()">Clear Stored Data</button></h2>
+
+					<table style="width: 100%">
+						<thead style="background-color: lightgray">
+							<tr>
+								<th width="20">Date</th>
+								<th width="30">Name</th>
+								<th width="50">Hash</th>
+							</tr>
+						</thead>
+						<tbody id="storedDataTable" style="background-color: white;"></tbody>
+					</table>
+				</span>
+			</div>
+
+			<br /><br />
+		</div>
+	</div>
+	</main>
+	
+	<div w3-include-html="../footer.html"></div>
+	<script>w3.includeHTML();</script>
+
+	<!-- Cookie Banner -->
+	<script src="../cookiebanner.js"></script>	
+</body>
+
+</html>

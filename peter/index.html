@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Peter Isagba's - Manage TikTok Token Minters</title>
+	<link type='text/css' href="../main.css" rel='stylesheet'>
+	<link href="./app.css" rel='stylesheet' type='text/css'>
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/ethers/5.2.0/ethers.umd.min.js" type="application/javascript"></script>
+	<script type="text/javascript" defer src="./app.js"></script>
+	<script src="https://www.w3schools.com/lib/w3.js"></script>
+</head>
+<body onload="initApp();">
+	<div style="margin:0px; padding:0px;" w3-include-html="../header.html"></div>
+	<main>
+		<div class="holder">
+			<h1>Summer Scholarship 2022 - Manage TikTok Token Minters</h1>
+
+			<div class="innerholder" style="padding-top:10px;">
+
+				<div class="panel" style="clear:both; float: left;margin-top:20px;">
+					<span>
+						<h2>Connect to MetaMask (Select the network your contract is on!)</h2>
+						<br />
+						<button class="buttonmetamask" name="enableEthereumButton" id="enableEthereumButton" disabled="false" onclick="loginToMetaMask()">Connect to MetaMask</button>
+						<span for="ethereumaccount">Ethereum Account: </span>
+						<span id="ethereumaccount"></span>
+						<br />
+					</span>
+				</div>
+				<div class="panel" style="clear:both; float: left;margin-top:20px;">
+					<h2>TikTok Token Contract Details</h2>
+					<label for="contractAddress">TikTok Token Contract Address:</label><br />
+					<input type="text" id="contractAddress" name="contractAddress" size="100" title="The blockchain address of your Token Contract" />
+					<br /><br />
+
+					<label for="contractABI">Contract ABI:</label>
+					<textarea name="contractABI" id="contractABI" class="textareastyle"></textarea>
+
+					<br /><hr />
+
+					<h2>Control Token Minters ( Add or remove minters )</h2>
+					<label for="minterAddress">TikTok Token Minter Address:</label><br />
+					<input type="text" id="minterAddress" name="minterAddress" size="100" title="The blockchain address of Token Minter" />
+					<br />
+					<br />
+					<button class="buttonmetamask" name= "addMinterButton" id="addMinterButton" disabled="true" onclick="addMinter()">+</button>
+					<span for="addMinterButton">Add Token Minter </span>
+					<button class="buttonmetamask" name="removeMinterButton" id="removeMinterButton" disabled="true" onclick="removeMinter()"> - </button>
+					<span for="removeMinterButton">Remove Token Minter </span>
+					<button class="buttonmetamask" name="isMinterButton" id="isMinterButton" disabled="true" onclick="isMinter()"> ? </button>
+					<span for="isMinterButton">Is Token Minter </span>
+					<br />
+					<br /><hr /><br />
+
+					<label for="transactionReceipt">Blockchain Transaction Details</label>
+					<br />
+					<textarea id="transactionReceipt" class="textareastyle"></textarea>
+					<br /><br />
+					<label for="network">Network Used:</label>
+					<br />
+					<textarea name="network" id="network" class="textareastyle"></textarea>
+					<br /><br />
+
+					</div>
+				<div class="panel" style="clear:both; float: left;margin-top:20px;">
+					<span>
+						<h2>Stored Data</h2>
+
+						<table style="width: 100%">
+							<thead style="background-color: lightgray">
+								<tr>
+									<th width="20">Date</th>
+									<th width="10">Network</th>
+									<th width="20">Contract Address</th>
+									<th width="30">Transaction Number</th>
+									<th width="10">Bytecode</th>
+									<th width="10">ABI</th>
+								</tr>
+							</thead>
+							<tbody id="storedDataTable" style="background-color: white;"></tbody>
+						</table>
+					</span>
+				</div>
+			</div>
+		</div>
+
+	<div class="popup" id="popupDiv">
+		<div class="popuptext"><pre id="popupText"></pre></div>
+		<button class="button popupbutton" onclick="closePopup()">Close</button>
+		<button class="button popupbutton" onclick="copyToClipboard()">Copy</button>
+	</div>
+
+	<div w3-include-html="../footer.html"></div>
+	<script>w3.includeHTML();</script>
+
+	<!-- Cookie Banner -->
+	<script src="../cookiebanner.js"></script>	
+</body>
+</html>

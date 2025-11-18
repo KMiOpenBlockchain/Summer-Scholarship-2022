@@ -1,0 +1,80 @@
+
+/** Styling on all instances of a given element **/
+
+body {
+	font-family: Arial, sans-serif;
+    	background-repeat:no-repeat;
+	border: 0;
+	height: 100%;
+	margin: 0 0 40px; /* bottom = footer height */
+	font-size:14pt;
+}
+
+h1 {
+	font-size: 1.5em;
+}
+
+h2 {
+	font-size: 1.25em;
+}
+
+h3 {
+	font-size: 1.1em;
+}
+
+label {
+	font-size:14pt;
+}
+
+/** Style classes **/
+
+.stuff {
+	font-weight: bold;
+	font-size: 14pt;
+}
+
+.widelabel {
+	float: left;
+	width: 300px;
+}
+
+.container {
+	position: relative;
+	min-height: calc(100vh - 135px); /* 135 (85 + 50) height of head (or footer?) and margin-bottom of head...? */
+	width: 1170px;
+ 	padding-right: 15px;
+ 	padding-left: 15px;
+ 	margin-right: auto;
+ 	margin-left: auto
+}
+
+.holder {
+	position: relative;
+	width: 90%;
+	min-height: calc(100vh - 135px); /* 135 (85 + 50) height of head (or footer?) and margin-bottom of head...? */
+ 	padding-right: 15px;
+ 	padding-left: 15px;
+ 	margin-right: auto;
+ 	margin-left: auto;
+ 	margin-bottom: 45px;
+}
+
+.innerholder {
+	float:left;
+	width: 100%;
+	padding-top:20px;
+ 	padding-bottom: 105px;	
+}
+
+.panel {
+	background: #dee6f2; /* For browsers that do not support gradients */
+	background: linear-gradient(#dee6f2,#c9d9f0); /* Standard syntax */
+	float:left;
+	width: 100%;
+	padding:10px;
+	box-sizing: border-box;
+}
+
+.clearit {
+	clear: both;
+}

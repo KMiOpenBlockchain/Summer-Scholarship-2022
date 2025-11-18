@@ -1,0 +1,188 @@
+body {
+	font-family: Arial, sans-serif;
+    	background-repeat:no-repeat;
+	border: 0;
+	height: 100%;
+	margin: 0 0 40px; /* bottom = footer height */
+}
+
+.container {
+	position: relative;
+	min-height: calc(100vh - 135px); /* 135 (85 + 50) height of head (or footer?) and margin-bottom of head...? */
+	width: 1170px;
+ 	padding-right: 15px;
+ 	padding-left: 15px;
+ 	margin-right: auto;
+ 	margin-left: auto
+}
+
+.holder {
+	position: relative;
+	width: 90%;
+	min-height: calc(100vh - 135px); /* 135 (85 + 50) height of head (or footer?) and margin-bottom of head...? */
+ 	padding-right: 15px;
+ 	padding-left: 15px;
+ 	margin-right: auto;
+ 	margin-left: auto;
+ 	margin-bottom: 45px;
+}
+
+.innerholder {
+	float:left;
+	width: 100%;
+	padding-top:10px;
+ 	padding-bottom: 10px;	
+}
+
+.panel {
+	background: #dee6f2; /* For browsers that do not support gradients */
+	background: linear-gradient(#dee6f2,#c9d9f0); /* Standard syntax */
+	float:left;
+	width: 100%;
+	padding:10px;
+	box-sizing: border-box;
+}
+
+.clearit {
+	clear: both;
+}
+
+.textareastyle {
+ 	width: 99.5%;
+ 	height: 140px;
+}
+
+.textareastylebig {
+ 	width: 99.5%;
+ 	height: 280px;
+}
+
+.button {
+	padding: 4px 16px;
+	border-radius: 4px;
+	cursor: pointer;
+}
+
+.buttonmetamask {
+	padding: 4px 16px;
+	border-radius: 4px;
+	background-color: #eda551;
+	cursor: pointer;
+}
+
+.buttonmetamask:hover {
+	background-color: #f2890f;
+}
+
+.labelmid {
+	float:left;
+	width: 170px;
+}
+
+/** FOR THE TABS - taken from https://codepen.io/carolyngreenough/pen/MawmVb - converted with https://jsonformatter.org/scss-to-css, then all '&gt;' removed**/
+
+.container--tabs {
+	 margin: 2rem;
+}
+.container--tabs .nav-tabs {
+	 float: left;
+	 width: 100%;
+	 margin: 0;
+	 list-style-type: none;
+	 border-bottom: 1px solid #ddd;
+}
+.container--tabs .nav-tabs li {
+	 float: left;
+	 margin-bottom: -1px;
+	 margin-right:5px;
+}
+.container--tabs .nav-tabs li a {
+	 float: left;
+	 margin-right: 2px;
+	 line-height: 1.42857143;
+	 text-decoration: none;
+	 padding: 10px;
+	 color: #1d5d82;
+	 border: 1px solid #ddd;
+	 border-bottom-color: transparent;
+	 /**border: 1px solid transparent;**/
+	 border-radius: 4px 4px 0 0;
+}
+.container--tabs .nav-tabs li a:hover {
+	border-color: #eee #eee #ddd;
+}
+.container--tabs .nav-tabs li.active a, .container--tabs .nav-tabs li.active a:hover, .container--tabs .nav-tabs li.active a:focus {
+	 color: #555;
+	 cursor: default;
+	 /**background-color: #fff;**/
+	 background-color: #1b6e9e; /** med: #1b6e9e dark: #1d5d82 **/
+	 color: white;
+	 border: 1px solid #ddd;
+	 border-bottom-color: transparent;
+}
+.container--tabs .tab-content {
+	 float: left;
+	 width: 100%;
+}
+.container--tabs .tab-content .tab-pane {
+	 display: none;
+}
+.container--tabs .tab-content .tab-pane.active {
+	 display: block;
+	 padding: 2.5% 3.5%;
+	 background-color: #efefef;
+}
+.container--tabs .tab-content .active {
+	 display: block;
+}
+
+.colourblock {
+	float:left;
+	margin:10px;
+	padding: 20px 10px 10px 10px; /* top right bottom left */
+	width:200px;
+	height:160px;
+	font: bold 1em arial, sans-serif;
+	text-align: center;
+	color: black;
+	border: solid 3px white;
+	box-shadow: 5px 5px 3px #aaaaaa;
+}
+
+.colourblocksm {
+	float:left;
+	margin:10px;
+	padding: 20px 10px 10px 10px; /* top right bottom left */
+	width:150px;
+	height:120px;
+	font: bold 1em arial, sans-serif;
+	text-align: center;
+	color: black;
+	border: solid 3px white;
+	box-shadow: 5px 5px 3px #aaaaaa;
+}
+
+.colourblocksm2 {
+	float:left;
+	margin:10px;
+	padding: 10px 5px 5px 5px; /* top right bottom left */
+	width:100px;
+	height:80px;
+	font: bold 1em arial, sans-serif;
+	text-align: center;
+	color: black;
+	border: solid 3px white;
+	box-shadow: 5px 5px 3px #aaaaaa;
+}
+.colourblocksm2wide {
+	float:left;
+	margin:10px;
+	padding: 10px 5px 5px 5px; /* top right bottom left */
+	width:183px;
+	height:80px;
+	font: bold 1em arial, sans-serif;
+	text-align: center;
+	color: black;
+	border: solid 3px white;
+	box-shadow: 5px 5px 3px #aaaaaa;
+}

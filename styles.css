@@ -1,0 +1,372 @@
+/*@import url(https://fonts.googleapis.com/css?family=Noto+Serif);*/
+body {
+	background: white;
+	border: 0;
+	margin: 0 0 40px; /* bottom = footer height */
+	font-family: arial, sans-serif;
+}
+
+a { 
+	color: black;
+	text-decoration:none;
+	cursor: pointer;
+}
+
+h1 {
+	font-family: arial, sans-serif;
+	margin-left:5px;
+	font-size: 1.5em;
+}
+
+h2 {
+	font-family: arial, sans-serif;
+	margin-top:0px;
+	margin-bottom:5px;
+	clear:both;
+	font-size: 1.25em;
+}
+
+h3 {
+	font-size: 1.1em;
+}
+
+.colourblock {
+	float:left;
+	margin:10px;
+	padding: 20px 10px 10px 10px; /* top right bottom left */
+	width:200px;
+	height:160px;
+	font: bold 1em arial, sans-serif;
+	text-align: center;
+	color: black;
+	border: solid 3px white;
+	box-shadow: 5px 5px 3px #aaaaaa;
+}
+
+.colourblocksm {
+	float:left;
+	margin:10px;
+	padding: 20px 10px 10px 10px; /* top right bottom left */
+	width:150px;
+	height:120px;
+	font: bold 1em arial, sans-serif;
+	text-align: center;
+	color: black;
+	border: solid 3px white;
+	box-shadow: 5px 5px 3px #aaaaaa;
+}
+
+.colourblocksm2 {
+	float:left;
+	margin:10px;
+	padding: 10px 5px 5px 5px; /* top right bottom left */
+	width:100px;
+	height:80px;
+	font: bold 1em arial, sans-serif;
+	text-align: center;
+	color: black;
+	border: solid 3px white;
+	box-shadow: 5px 5px 3px #aaaaaa;
+}
+
+.colourblocksm2wideshort {
+	float:left;
+	margin:10px;
+	padding: 10px 5px 5px 5px; /* top right bottom left */
+	width:183px;
+	height:80px;
+	font: bold 1em arial, sans-serif;
+	text-align: center;
+	color: black;
+	border: solid 3px white;
+	box-shadow: 5px 5px 3px #aaaaaa;
+}
+.colourblocksm2wide {
+	float:left;
+	margin:10px;
+	padding: 10px 5px 5px 5px; /* top right bottom left */
+	width:183px;
+	height:100px;
+	font: bold 1em arial, sans-serif;
+	text-align: center;
+	color: black;
+	border: solid 3px white;
+	box-shadow: 5px 5px 3px #aaaaaa;
+}
+
+.colourblocksm2wider {
+	float:left;
+	margin:10px;
+	padding: 10px 5px 5px 5px; /* top right bottom left */
+	width:230px;
+	height:100px;
+	font: bold 1em arial, sans-serif;
+	text-align: center;
+	color: black;
+	border: solid 3px white;
+	box-shadow: 5px 5px 3px #aaaaaa;
+}
+.colourblocktiny {
+	float:left;
+	margin:10px;
+	padding: 10px 5px 5px 5px; /* top right bottom left */
+	width:90px;
+	height:70px;
+	font: bold 1em arial, sans-serif;
+	text-align: center;
+	color: black;
+	border: solid 3px white;
+	box-shadow: 5px 5px 3px #aaaaaa;
+}
+
+.colourblock2 {
+	float:left;
+	margin:10px;
+	padding: 20px 10px 10px 0px; /* top right bottom left */
+	width:300px;
+	height:160px;
+	font: bold 1em arial, sans-serif;
+	text-align: center;
+	color: black;
+	border: solid 3px white;
+	box-shadow: 5px 5px 3px #aaaaaa;
+}
+.colourblock2sm {
+	float:left;
+	margin:10px;
+	padding: 20px 10px 10px 10px; /* top right bottom left */
+	width:248px;
+	height:120px;
+	font: bold 1em arial, sans-serif;
+	text-align: center;
+	color: black;
+	border: solid 3px white;
+	box-shadow: 5px 5px 3px #aaaaaa;
+}
+
+.colourblock3sm {
+	float:left;
+	margin:10px;
+	padding: 20px 10px 10px 0px; /* top right bottom left */
+	width:356px;
+	height:120px;
+	font: bold 1em arial, sans-serif;
+	text-align: center;
+	color: black;
+	border: solid 3px white;
+	box-shadow: 5px 5px 3px #aaaaaa;
+}
+
+.colourblock2 img{
+	margin-left: 10px;
+}
+.colourblock a {
+	color: black;
+	text-decoration: none;
+}
+.colourblock:hover {
+	text-decoration: underline;
+}
+
+.clearit {
+	clear: both;
+}
+.holder {
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+	width: 1024px;
+	height: auto;
+	border: 0;
+	padding-left: 20px;
+	padding-right: 0x;
+	box-sizing: border-box;
+}
+
+.curvedBorder {
+	border-radius: 12px; 
+	-o-border-radius: 12px; 
+	-icab-border-radius: 12px; 
+	-khtml-border-radius:12px; 
+	-moz-border-radius: 12px;
+	-webkit-border-radius: 12px;
+}
+.tabs {
+  position: relative;
+  min-height: 740px;  /*This part sucks */
+  clear: both;
+  margin: 25px 0;
+}
+.tab {
+  float: left;
+}
+.tab label {
+ 	background: #eee; 
+  	padding: 10px 10px 9px 10px; /* top right bottom left */ 
+  	border: 1px solid #ccc; 
+  	margin-left: -1px; 
+  	position: relative;
+  	left: 1px; 
+  	color: #888;
+  	font: bold 1em arial, sans-serif;
+	-webkit-user-select: none;  /* Chrome all / Safari all */
+  	-moz-user-select: none;     /* Firefox all */
+  	-ms-user-select: none;      /* IE 10+ */
+  	user-select: none;          /* Likely future */ 
+}
+.tab [type=radio] {
+  display: none;   
+}
+.content {
+  position: absolute;
+  top: 28px;
+  left: 0;
+  background: white;
+  right: 0;
+  bottom: 0;
+  padding: 20px;
+  border: 1px solid #ccc; 
+}
+[type=radio]:checked ~ label {
+  background: white;
+  border-bottom: 1px solid white;
+  z-index: 2;
+}
+[type=radio]:checked ~ label ~ .content {
+  z-index: 1;
+}
+
+#stuName {
+	font: bold 1.4em arial, sans-serif;
+}
+#stuTotal {
+	font: 0.9em arial, sans-serif;
+	color: #777;
+}
+#stuNum {
+	font: 0.9em arial, sans-serif;
+	color: #777;
+}
+table {
+	border-collapse: collapse;
+	border: solid 1px black;
+    background: white;
+    font: 0.8em arial, sans-serif;
+}
+th {
+	border: solid 1px black;
+    text-align: center;
+    padding: 4px 0px 4px 0px; /* top right bottom left */
+    min-height: 30px;
+}
+td {
+	border: solid 1px black;
+    text-align: center;
+    padding: 2px 0px 0px 0px; /* top right bottom left */
+    min-height: 30px;
+}
+tr:nth-child(odd){background-color: #f8f8f8}
+
+#topbit {
+	display:block;
+}
+#left {
+	float:left;
+	width: 48%;
+}
+#right {
+	position:relative;
+	top: 30px;
+	float:right;
+	font: 0.8em arial, sans-serif;
+	color:#555;
+	width: 48%;
+}
+#reg {
+	font: 0.8em arial, sans-serif;
+	color:#999;
+}
+#intro {
+	font: 0.9em arial, sans-serif;
+	color:#999;
+}
+#inowner {
+	font: 0.9em arial, sans-serif;
+	color:#777;
+}
+#quotablock {
+	float:left;
+	border-radius: 15px;
+	background: #ddd;
+    padding: 20px;
+    width:300px;
+	height: 120px;
+	margin-right: 20px;
+	margin-bottom: 20px;
+}
+#qhead {
+	font: bold 0.8em arial, sans-serif;
+	color:#000;
+}
+#qincap {
+	font:  0.8em arial, sans-serif;
+	color:#000;
+}
+form {
+	font:  0.8em arial, sans-serif;
+	color:#000;
+}
+input {
+  border: 1px solid #777;
+  width: 250px;
+  height: 20px;
+  font-size: 1em;
+}
+
+.holder2 {
+	display: block;
+	float:left;
+	clear:both;
+	margin-right: auto;
+	margin-left: auto;
+	width: 100%;
+	height: auto;
+	border: 0;
+	padding: 0x;
+	margin-top:5px;
+	margin-bottom:15px;
+	box-sizing: border-box;
+}
+
+.innerholder {
+	float:left;
+	clear:both;
+	width: 96%;
+	height: auto;
+	padding: 0px;
+	padding-left: 40px;
+	padding-right: 60px;
+}
+
+.tbandfree {
+	opacity: 1;
+	clear:both;
+	float:left;
+	width: 100%;
+	height: 28px;
+	background-color: rgba(183,201,221,0.4);
+	background-blend-mode: normal;
+	color: #4b9fc0;
+	font: 20px arial, sans-serif;
+	padding: 0;
+	vertical-align: top;
+}
+
+.tbandfree img {
+	opacity: 1;
+	filter: none;
+	vertical-align:middle;
+	margin-right:6px;
+	width:88px;
+	height:28px;
+}
