@@ -40,4 +40,4 @@ And this page contains details of his TikTok Tokens: [tokens/](./tokens/)
 - The **Accessibility** and **Privacy Statement** HTML pages included in this repository are preserved for historical reference only. They were applicable solely when the site was hosted at The Open University and do not apply to this archived version.
 
 ## License
-This work is licensed under the Creative Commons Attribution 4.0 International (CC BY 4.0) License. See [LICENSE](./LICENSE) for details.
+This work is licensed under the MIT license. See [LICENSE](./LICENSE) for details.
