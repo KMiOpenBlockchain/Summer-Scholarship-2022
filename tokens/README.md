@@ -533,7 +533,7 @@ TikTok Video URL:
   
   
 TikTok Token Image
-![Image for TikTok Explanation Movie](https://nftstorage.link/ipfs/bafybeihmir777baxu2wdtgpdi7xpf3y4yrz42274wc4oqfgi4q5gciokja)
+![Image for TikTok Explanation Movie](images/token-image1.png)
   
   
 TikTok Token ID: 0
@@ -567,7 +567,7 @@ TikTok Video URL: [https://www.tiktok.com/@user978522036/video/71413906369047626
   
   
 TikTok Token Image
-![Image for TikTok Demo Movie](https://nftstorage.link/ipfs/bafkreibav2y5x6pptiredjqtihdscvrxpz765fx75ghnqjczey2botcofa)
+![Image for TikTok Demo Movie](images/token-image2.png)
   
   
 TikTok Token ID: 2
